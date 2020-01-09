@@ -1,0 +1,25 @@
+# Site settings
+title: SiteGo
+email: support@sitego.co
+description: >- # this means to ignore newlines until "baseurl:"
+  Product documentation for end users and developers.
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://www.sitego.co" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: readysitego
+github_username: readysitego
+
+# Build settings
+markdown: kramdown
+
+# Apply the SiteGo Theme
+remote_theme: readysitego/siteGoTheme
+
+plugins:
+ - jekyll-avatar
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-octicons
+ - jekyll-paginate
+ - jekyll-seo-tag
+
+exclude: [vendor]
